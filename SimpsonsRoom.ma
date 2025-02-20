@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: SimpsonsRoom.ma
-//Last modified: Sun, Feb 16, 2025 04:30:15 PM
+//Last modified: Sun, Feb 16, 2025 04:30:54 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires "mtoa" "5.4.2.1";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "BDE2B440-3E4E-CC51-F629-F989F244FE90";
+fileInfo "UUID" "893F28E4-3E46-454A-CD4D-BB8FF5C6B24C";
 createNode transform -s -n "persp";
 	rename -uid "7717944E-FC4F-060C-5F3F-C6AB422305C8";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 13.82399864369194 15.163200575854411 6.2066703267567735 ;
+	setAttr ".t" -type "double3" 16.36414348755839 16.992353219088187 7.4237038166696561 ;
 	setAttr ".r" -type "double3" -32.99999999999455 64.399999999995117 0 ;
 	setAttr ".rpt" -type "double3" -5.0563346126082639e-16 -5.8049924170190252e-17 -3.5799106997692397e-19 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "48F63EC9-EC46-9486-8EEA-15987CE50342";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 20.481904040385434;
+	setAttr ".coi" 23.840371806442011;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

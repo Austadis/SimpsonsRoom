@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: SimpsonsRoom.ma
-//Last modified: Sun, Apr 20, 2025 04:09:05 PM
+//Last modified: Sun, Apr 20, 2025 04:09:36 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "19B04A4A-3144-EE72-2841-27A66B9FC493";
+fileInfo "UUID" "4FDF644A-BC45-498E-9728-E9B72DF811F1";
 createNode transform -s -n "persp";
 	rename -uid "7717944E-FC4F-060C-5F3F-C6AB422305C8";
 	setAttr ".v" no;
@@ -17932,14 +17932,14 @@ createNode camera -n "cameraShape2" -p "camera2";
 	setAttr ".man" -type "string" "camera2_mask";
 createNode transform -n "persp1";
 	rename -uid "14A70425-104F-DCC8-A6ED-8AA3D2DA7A15";
-	setAttr ".t" -type "double3" -22.175744668315183 24.171061936445419 39.134087463560661 ;
-	setAttr ".r" -type "double3" -26.738352729603083 -31.799999999999951 9.3557536960512301e-16 ;
+	setAttr ".t" -type "double3" 29.953723054681312 16.186345151800111 50.481726674306628 ;
+	setAttr ".r" -type "double3" -14.738352729603198 28.999999999999996 -4.5456251664310554e-16 ;
 createNode camera -n "perspShape1" -p "persp1";
 	rename -uid "95004827-A34E-DD74-22E9-59B41DD5D5B7";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 51.427652651803719;
+	setAttr ".coi" 59.564207126596699;
 	setAttr ".imn" -type "string" "persp1";
 	setAttr ".den" -type "string" "persp1_depth";
 	setAttr ".man" -type "string" "persp1_mask";
